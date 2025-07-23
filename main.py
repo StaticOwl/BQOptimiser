@@ -11,5 +11,3 @@ from app.routes.query import router as query_router
 app = FastAPI(title="BQOptimiser")
 
 app.include_router(query_router, prefix="/query")
-
-
