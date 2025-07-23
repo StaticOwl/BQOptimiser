@@ -1,0 +1,21 @@
+{
+  "name": "BQOptimiser Dev",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "python.pythonPath": "/opt/conda/envs/bqoptimiser/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postCreateCommand": "conda activate bqoptimiser",
+  "remoteUser": "root"
+}
