@@ -1,6 +1,6 @@
-# general_template
+# BQOptimiser
 
-This is a general template for any repo in this project.
+This is a general template for this project.
 
 # Description
 
